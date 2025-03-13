@@ -27,6 +27,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'deploy'
+                sh 'exit 1'
             }
         }
     }
